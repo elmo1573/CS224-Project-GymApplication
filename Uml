@@ -35,7 +35,7 @@ class BMI {
 }
 
 class Nutrition {
-  // Attributes and methods not shown
+  +showdailydiet()
 }
 
 class Trainer {
@@ -78,6 +78,7 @@ DailyRoutine --|> Abs
 main --|> Trainer
 main --|> DailyRoutine
 main --|> MonthlyProgress
+main --|> Nutrition
 
 MonthlyProgress -- BMI
 MonthlyProgress --|> DailyRoutine
