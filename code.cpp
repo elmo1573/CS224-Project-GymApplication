@@ -1,6 +1,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <SDL.h>
 using namespace std;
 
 Class MemberAccount{
