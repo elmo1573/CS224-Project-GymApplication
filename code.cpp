@@ -77,6 +77,29 @@ void advanced()override{  cout<<"Here is an ADVANCED Chest workout plan. All the
   cout<<"Flat Barbell Bench Press 4x12 + Incline DB Press 4x12 superset "<<endl<<"DB Bench Press 3x15 + Machine Flies 3x12 Superset "<<endl<<"Wide grip Pushups 3x10 + Diamond Pushups 3x20 superset "<<endl<<"Incline Barbell press 4x12"<<endl<<"Incline DB Fly's 3x10"<<endl<<"Decline Press(Smith Machine) 3x10 "<<endl<<"Hope you survived :) Good Job!";    }
 };
 
+class Back{public:
+virtual void basic()=0;
+virtual void intermediate()=0;
+virtual void advanced()=0;
+}
+
+class ChestWorkout:public Chest{
+public:
+void basic()  override{
+  cout<<"Here is a basic BACK workout plan. All the best!"<<endl<<"Max rest between sets : 1-2 mins;
+cout<<"Barbell Overhand Rows 3x12"<<endl<<"Barbell Underhand Rows 3x8"<<endl<<"Wide Grip Lat pulldown 3x10"<<endl<<"Seated Machine Rows 4x10"<<endl<<"Dumbbell Pullover 3x8"<<endl<<"Have a Good Workout!";    }
+
+void intermediate() override{
+  cout<<"Here is an Intermediate Back workout plan. All the best!"<<endl<<"Max rest between sets : 45-70 seconds";                        
+  cout<<"V-Grip Lat Pulldown 2x15"<<endl<<"Single Arm Seated Rows 3x12"<<endl<<"Deadlift 3x 12/10/8 (Progressively overload the Weight)"<<endl<<"Chest Supported DB Rows"<<endl<<"5 Mins Stretching"<<endl<<"Rope Pulldown 2x10"<<endl<<"Have a Good Workout!";    }
+
+void advanced()override{  cout<<"Here is an ADVANCED Back workout plan. All the best!"<<endl<<"Max rest between sets : 15-40 seconds";                        
+  cout<<"Heavy Deadlift 3x12/10/8"<<endl<< "Barbell Overhand Rows 3x12 (Heavy)"<<endl<<"DB Single Arm Rows 3x15 + Lat Pulldown (Wide Grip) 3x12 Superset "<<endl<<"Close grip Lat pulldown 3x12 (max 20 sec  rest)"<<endl<<"Incline Barbell press 4x12"<<endl<<"Incline DB Fly's 3x10"<<endl<<"Decline Press(Smith Machine) 3x10 "<<endl<<"Hope you survived :) Good Job!";    }
+};
+
+
+
+
 
 
 
