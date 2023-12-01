@@ -10,6 +10,7 @@ Class MemberAccount{
   float height,weight,waist;
 
 public:
+  
   MemberAccount(string _n, int _a, float _h,float _weight,float _w):name(_n),age(_a),height(_h),weight(_w),waist(_w){}
   string getName() const { return name; }
 
