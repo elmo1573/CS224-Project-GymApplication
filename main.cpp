@@ -12,7 +12,7 @@
 #include <QTextStream>
 #include <QDebug>
 
-#include "LINKEDLIST.h" // Replace with the actual header file for your linked list implementation
+#include "LINKEDLIST.h" 
 
 class MainWindow : public QWidget {
     Q_OBJECT
